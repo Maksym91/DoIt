@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', serif, sans-serif;
+}
+
+.header{
+    padding: 20px 0 0 0;
+    margin: 0 0 50px 0;
+}
+
+.nav-list{
+    text-align: center;
+    
+}
+
+.list-item{
+    list-style: none;
+    display: inline-block;
+    margin: 0 70px 0 0;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.section-img,
+.img-title,
+.section-title,
+.section-text {
+    margin: 0 0 20px 0;
+}
+
+.img-title{
+    font-family: 'Indie Flower', cursive;;
+}
+    
+.list-title {
+    list-style: none;
+    display: inline-block;
+    width: 400px;
+    margin: 0 0 50px 0;
+}
+
+.list-title-r {
+    margin-right: calc(900px - 400px *2 - 8px);
+}
+
+.button{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid grey;
+
+}
