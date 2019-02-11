@@ -19,8 +19,7 @@ body {
 }
 
 .nav-list{
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .list-item{
@@ -29,30 +28,31 @@ body {
     margin: 0 70px 0 0;
 }
 
+.list-item:last-child{
+    margin: 0;
+}
+
 .nav-link{
     text-decoration: none;
     font-style: inherit;   
 }
 
-.section-img,
-.img-title,
-.section-title,
-.section-text {
-    margin: 0 0 20px 0;
-}
-
 .img-title{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0 20px 0;
     color:rgb(0, 0, 0, 0.3);
     }
 
 .section-title{
-    color: rgb(0, 0, 0, 0.7);
+    margin: 0 0 20px 0;
+    color: rgb(0, 0, 0, 0.8);
     font-size: 28px;
     font-weight: 400;
 }
 
 .section-text{
-    color: rgb(0, 0, 0, 0.5);
+    margin: 0 0 20px 0;
+    color: rgb(0, 0, 0, 0.6);
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -62,11 +62,15 @@ body {
     display: inline-block;
     width: 400px;
     margin: 0 0 50px 0;
+        
 }
 
-.list-title-r {
-    margin-right: calc(900px - 400px *2 - 8px);
+.list-title:nth-child(even){
+    margin-right: 0;
 }
+  .list-title-r {
+    float: right;
+}  
 
 .button{
     margin: 20px 0 50px 350px;
