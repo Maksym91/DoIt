@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .header{
@@ -31,6 +31,7 @@ body {
 
 .nav-link{
     text-decoration: none;
+    font-style: inherit;   
 }
 
 .section-img,
@@ -42,14 +43,19 @@ body {
 
 .img-title{
     color:rgb(0, 0, 0, 0.3);
-}
+    }
 
 .section-title{
     color: rgb(0, 0, 0, 0.7);
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .section-text{
     color: rgb(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
 }
 .list-title {
     list-style: none;
