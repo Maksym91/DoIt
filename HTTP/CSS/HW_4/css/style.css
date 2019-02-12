@@ -4,50 +4,126 @@
     box-sizing: border-box;
 }
 
-.body{
-    font-family: 'Lato', sans-serif;
-}
-
 .container{
     width: 1100px;
     margin: 0 auto;
 }
 
-.header-wrapper{
+.header{
     padding: 20px 0 0 0;
-    margin-bottom: 50px;
+    margin: 0 0 50px 0;
+}
+
+.header-logo{
+    float: left;
+}
+
+.header-logo::first-letter{
+    color: #1abc9c;
+}
+
+.nav-list{
+    text-align: right;
+}
+
+.list-item:last-child{
+    margin-right: 0;
 }
 
 .list-item{
     list-style: none;
+    display: inline-block;
     margin: 0 20px 0 0;
-    float: right;
 }
 
-.list-item:first-child{
-    margin: 0;
+.item-link{
+    text-decoration: none;
+    color: black;
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.header-text{
-    float: left;
-}
-
-.header-text::first-letter{
-    color: aqua;
+.item-link:hover{
+    color: #1abc9c;
 }
 
 .section-title{
     text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.section-title::after{
+    content: "";
+    border-bottom: 6px solid #1abc9c;
+    display: block;
+    width: 166px;
+    margin: 0 auto;
+    margin-top: 32px;
 }
 
 .section-list{
     list-style: none;
-    width: 250px;
+    display: inline-block;
+    }
+
+.prodacts-article{
+    width: 255px;   
+    list-style: none;
+    display: inline-block;
+    margin: 0 auto;
 }
 
+.prodacts-article__r{
+    margin: 0 20px 40px 0;
+}
+
+.prodacts-article:nth-child(4n){
+    margin-right: 0;
+}
+
+.article-list{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: #323232;
+    display: block;
+    width: 252px;
+    text-align: center;
+    height: 41px;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.article-list:hover{
+    color: #1abc9c;
+    border: 1px solid #1abc9c;
+}
+
+.article-list:focus{
+    background-color: #1abc9c;
+}
+.prodacts-article:hover{
+    color: #1abc9c;
+    border: 1px solid #1abc9c;
+}
+
+.button{
+    display: block;
+    width: 55px;
+    height: 40px;
+    border: 1 px solid #8c8c8c;
+    outline: none;
+    cursor: pointer;
+    background-color: #8c8c8c;
+    color: white;
+    float: right;
+}
+
+.button:hover{
+    color: #7fd9c7;
+    border: solid #1abc9c;
+}
+
+.button:focus{
+    background-color: #7fd9c7;
+}
