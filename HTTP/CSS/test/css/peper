@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 20px 0 0 0;
+}
+
+.header-logo::first-letter{
+    color: #33cc99;
+}
+
+.header-item{
+    list-style: none;
+    margin: 0 20px 0 0;
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header-link:hover{
+    color: #33cc99;
+}
+
+
+/*__________________________________закончилась навигация, сделать лого и переставить линки+ шрифты*/
+
+.section-title{
+    text-align: center;
+    margin: 50px 0 50px 0;  /*тайтл секции*/
+}
+
+.section-title::after{
+    content: "";
+    border-bottom: 6px solid #33cc99;
+    display: block;
+    width: 166px;
+    margin: 0 auto;
+    margin-top: 32px; /*линия*/
+}
+
+.section-item{
+    list-style: none;
+    width: 255px;
+    margin: 0 26px 20px 0;
+    float: left; 
+}
+
+ .section-item:nth-child(4n){
+    margin-right: 0; 
+}                             /*каждому 4му блоку забрал margin-right*/ 
+
+
+.section-img{
+    background-color: #e9f0fd;  /*фон блока*/
+}
+
+.section-button:hover{
+    color: black;
+    background-color: #33cc99;
+     /*выделяетьса кнопка при нааведении курсора*/
+} 
+
+.section-news__item{
+    list-style: none;
+    width: 340px;
+    margin: 0 40px 0 0;
+    float: left;
+}
+
+.section-news__item:last-child{
+    margin-right: 0;
+}
+
+.news-img,
+.news-title,
+.news-text{
+    margin: 0 0 20px 0;
+}
+
+.news-title::after{
+    content: "";
+    border-bottom: 3px solid #33cc99;
+    display: block;
+    width: 166px;
+    margin-top: 32px; 
+}
+
+.button{
+    display: block;
+    padding: 20px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color:#33cc99;
+    border: 1px solid grey;
+    font-size: 24px;
+    border-radius: 8px;
+}
+

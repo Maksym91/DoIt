@@ -38,19 +38,13 @@ main{
     display: table;
     clear: both;
 }
- .nav-list{
-    /* text-align: center; */
-    /* height: auto;
-    overflow: hidden;   */
-} 
-
+ 
 /* .list-item:last-child{
     clear: left;
 } */
 
 .list-item{
     list-style: none;
-    /* display: inline-block; */
     margin: 0 20px 0 0;
     float: left;
 }
