@@ -19,25 +19,21 @@
 
 .header{
     padding: 38px 0 0 0;
+    margin-bottom: 32px;
 }
 
 .header-logo{
     display: inline-block;
     margin: 0;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
 }
 
 .header-logo::first-letter{
     color: #1abc9c;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
 }
 
 .header-list{
     float: right;
-    margin-top: 10px;  
+    margin-top: 12px;  
 }
 
 .header-item{
@@ -53,9 +49,6 @@
 .header-link{
     text-decoration: none;
     color: black;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
 }
 
 .header-link:hover,
@@ -63,12 +56,19 @@
     color: #1abc9c;
 }
 
+.baner{
+    min-height: 600px;
+    background-image: linear-gradient(to right, rgb(6, 6, 6, 0.3), rgb(2, 1, 1, 0.3)), url('../img/baner_01.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
 .section-title{
     margin-top: 110px;
     text-align: center;
-    font-size: 48px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-size: 32px;
 }
 
 .section-title::after{
@@ -106,9 +106,7 @@
 }
 
 .section-shop{
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-size: 22px;
     text-align: center;
     color: white;
     background-color: #323232;
@@ -116,16 +114,15 @@
     width: 200px;
 }
 
-.section-shop:hover,
+ .section-shop:hover,
 .section-shop:focus{
     color: white;
     background-color: #1abc9c;
 }
 
+
 .section-price{
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-size: 22px;
     text-align: center;
     color: white;
     background-color: #8c8c8c;
@@ -158,8 +155,6 @@
 .news-title{
     margin-top:20px;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
 }
 
 .news-title::after{
@@ -172,8 +167,7 @@
 
 .news-text{
     margin-top: 32px;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 .button{

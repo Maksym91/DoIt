@@ -15,26 +15,40 @@
 }
 
 .list{
-    display: block;
+    display: inline-block;
     width: 255px;
-}
+    }
 
-.item{
+.list{
     list-style: none;
-    background-color: grey;
-
-    
+    font-size: 0;
 }
 
-.item:hover  {
-    color: white;
+.img-title{
+    color: black;
+    font-size: 20px;
     background-color: aquamarine;
-    
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+.price{
+    color: black;
+    font-size: 20px;
+    background-color: bisque;
+    display: inline-block;
+    width: 55px;
+    text-align: center;
+}
+
+.img-title{
+    filter: grayscale(1);
+}
+
+.img-wrapper:hover .img-title {
+    filter: grayscale(0);
 
 }
 
-.parent{
-    width: 255px;
-    margin-left: 233px;
-    background-color: grey;
-}
+
