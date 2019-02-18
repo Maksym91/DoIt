@@ -22,33 +22,30 @@
 .list{
     list-style: none;
     font-size: 0;
+    background-color: #e9f0fd;
+    
 }
 
 .img-title{
-    color: black;
+    color: white;
+    background-color: rgba(50, 50, 50, 0.7);
     font-size: 20px;
-    background-color: aquamarine;
     display: inline-block;
     width: 200px;
     text-align: center;
 }
 
 .price{
-    color: black;
+    color:white;
+    background-color: rgba(197, 194, 194, 0.6);
     font-size: 20px;
-    background-color: bisque;
     display: inline-block;
     width: 55px;
     text-align: center;
 }
 
-.img-title{
-    filter: grayscale(1);
-}
-
-.img-wrapper:hover .img-title {
-    filter: grayscale(0);
-
+.item:hover, .img_title{
+    background-color: #1abc9c;
 }
 
 

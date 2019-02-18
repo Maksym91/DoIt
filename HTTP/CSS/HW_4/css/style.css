@@ -25,25 +25,29 @@
     display: inline-block;
     margin: 0;
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-light', sans-serif;
     font-weight: 300;
 }
 
 .header-logo::first-letter{
     color: #1abc9c;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-black', sans-serif;
     font-weight: 900;
 }
 
+.header-nav{
+    width: 1000px;
+    display: inline-block;
+}
+
 .header-list{
-    float: right;
-    margin-top: 10px;  
+    margin-left: 476px;
 }
 
 .header-item{
     list-style: none;
     margin: 0 34px 0 0;
-    float: left;
+    display: inline-block;
 }
 
 .header-item:last-child{
@@ -54,8 +58,9 @@
     text-decoration: none;
     color: black;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans-bold', sans-serif;
     font-weight: bold;
+    
 }
 
 .header-link:hover,
@@ -67,8 +72,9 @@
     margin-top: 110px;
     text-align: center;
     font-size: 48px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-black', sans-serif;
     font-weight: 900;
+    color: rgb(0, 0, 0, 0.7);
 }
 
 .section-title::after{
@@ -83,6 +89,7 @@
 .section-list{
     list-style: none;
     margin-top: 90px;
+
 }
 
 .section-item{
@@ -91,6 +98,7 @@
     margin-bottom: 30px;
     float: left;
     font-size: 0; 
+    
 }
 
 .section-item:nth-child(4n){
@@ -103,41 +111,33 @@
 
 .section-img{
     background-color: #e9f0fd;
+    
 }
 
 .section-shop{
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-family: 'Roboto-black', sans-serif;
     text-align: center;
     color: white;
-    background-color: #323232;
+    background-color: rgba(50, 50, 50, 0.750);
     display: inline-block;
     width: 200px;
 }
 
-.section-shop:hover,
-.section-shop:focus{
-    color: white;
-    background-color: #1abc9c;
-}
-
 .section-price{
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-family: 'Roboto-black', sans-serif;
     text-align: center;
     color: white;
-    background-color: #8c8c8c;
+    background-color: rgba(167, 164, 164, 0.445);
     display: inline-block;
     width: 55px;
 }
 
-.section-price:hover,
-.section-price:focus{
-    color: white;
-    background-color: #7fd9c7;
+.section-item:hover{
+    background-color: rgba(26, 188, 156, 0.9);
 }
+
 
 .section-news__list{
     list-style: none;
@@ -162,6 +162,33 @@
     font-weight: 600;
 }
 
+.news-img__a{
+    width: 350px;
+    height: 260px;
+    background-image: url(../img/ipad-632394_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.news-img__b{
+    width: 350px;
+    height: 260px;
+    background-image: url(../img/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.news-img__c{
+    width: 350px;
+    height: 260px;
+    background-image: url(../img/product-img-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .news-title::after{
     content: "";
     border-bottom: 3px solid #1abc9c;
@@ -178,7 +205,8 @@
 
 .button{
     display: block;
-    height: 50px;
+    margin: 0 auto;
+    padding: 25px;
     width: 160px;
     outline: none;
     cursor: pointer;
@@ -187,7 +215,10 @@
     background-color:#33cc99;
     font-size: 18px;
     border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
     margin: 18px 0 80px 0;
+    
 }
 
 
