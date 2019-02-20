@@ -23,14 +23,16 @@
     display: inline-block;
     margin: 0;
     font-size: 30px;
-    font-family: 'Roboto-light', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: rgba(0, 0, 0, 0.7);
     
 }
 
 .header-logo::first-letter{
     color: #1abc9c;
-    font-family: 'Roboto-black', sans-serif;  
+    font-family: 'Roboto-black', sans-serif; 
+    font-weight: 900; 
 }
 
 .header-nav{
@@ -56,8 +58,8 @@
     text-decoration: none;
     color: black;
     font-size: 14px;
-    font-family: 'Open Sans-bold', sans-serif;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     
 }
 
@@ -73,7 +75,7 @@ main{
 .section-title{
     text-align: center;
     font-size: 48px;
-    font-family: 'Roboto-black', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     color: rgb(0, 0, 0, 0.7);
 }
@@ -116,7 +118,8 @@ main{
     display: inline-block;
     padding: 10px 10px 10px 10px;
     font-size: 18px;
-    font-family: 'Roboto-black', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     width: 200px;
     color: white;
     background-color: rgb(50, 50, 50, 0.8);
@@ -126,7 +129,8 @@ main{
     display: inline-block;
     padding: 10px 0 10px 0;
     font-size: 18px;
-    font-family: 'Roboto-black', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     text-align: center;
     width: 55px;
     color: white;
@@ -160,7 +164,7 @@ main{
 .news-title{
     margin-top:20px;
     font-size: 18px;
-    font-family: 'Open Sans-semibold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
 
@@ -203,6 +207,7 @@ main{
     margin-top: 32px;
     font-size: 14px;
     font-family: 'OpenSans', sans-serif;
+    font-weight: 400;
 }
 
 .button{
@@ -216,7 +221,8 @@ main{
     border: 1px solid #33cc99;
     background-color:#33cc99;
     font-size: 16px;
-    font-family: 'OpenSans-light', sans-serif;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 300;
     border-radius: 8px;
     text-align: center;
     text-decoration: none;
