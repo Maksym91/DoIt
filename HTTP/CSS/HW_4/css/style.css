@@ -23,7 +23,7 @@
     display: inline-block;
     margin: 0;
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-light', sans-serif;
     font-weight: 300;
     color: rgba(0, 0, 0, 0.7);
     
@@ -41,12 +41,12 @@
 }
 
 .header-list{
-    margin-left: 476px;
+    margin-left: 465px;
 }
 
 .header-item{
     list-style: none;
-    margin: 0 34px 0 0;
+    margin: 0 28px 0 0;
     display: inline-block;
 }
 
@@ -58,8 +58,8 @@
     text-decoration: none;
     color: black;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-family: 'Open Sans-bold', sans-serif;
+    font-weight: 800;
     
 }
 
@@ -75,9 +75,9 @@ main{
 .section-title{
     text-align: center;
     font-size: 48px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-black', sans-serif;
     font-weight: 900;
-    color: rgb(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .section-title::after{
@@ -114,31 +114,35 @@ main{
     background-color: rgb(233, 240, 253);
 }
 
+.back-color{
+    background-color: rgb(50, 50, 50, 0.9);
+}
+
+.section-item:hover .back-color {
+    background-color: #1abc9c;
+}
+
 .section-shop{
     display: inline-block;
     padding: 10px 10px 10px 10px;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-family: 'Roboto-black', sans-serif;
+    font-weight: 700;
     width: 200px;
     color: white;
-    background-color: rgb(50, 50, 50, 0.8);
+    
 }
 
 .section-price{
     display: inline-block;
     padding: 10px 0 10px 0;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-family: 'Roboto-black', sans-serif;
+    font-weight: 700;
     text-align: center;
     width: 55px;
     color: white;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.section-item:hover{
-    background-color:rgba(18, 245, 169);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .section-news{
@@ -164,8 +168,9 @@ main{
 .news-title{
     margin-top:20px;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans-semibold', sans-serif;
     font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .news-img__a{
@@ -207,7 +212,7 @@ main{
     margin-top: 32px;
     font-size: 14px;
     font-family: 'OpenSans', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .button{
