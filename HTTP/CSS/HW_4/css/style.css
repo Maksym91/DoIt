@@ -23,7 +23,7 @@
     display: inline-block;
     margin: 0;
     font-size: 30px;
-    font-family: 'Roboto-light', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: rgba(0, 0, 0, 0.7);
     
@@ -31,7 +31,7 @@
 
 .header-logo::first-letter{
     color: #1abc9c;
-    font-family: 'Roboto-black', sans-serif; 
+    font-family: 'Roboto', sans-serif; 
     font-weight: 900; 
 }
 
@@ -59,7 +59,7 @@
     text-decoration: none;
     color: black;
     font-size: 14px;
-    font-family: 'Open Sans-bold', sans-serif;
+    font-family: 'OpenSans', sans-serif;
     font-weight: 800;
     
 }
@@ -76,7 +76,7 @@ main{
 .section-title{
     text-align: center;
     font-size: 48px;
-    font-family: 'Roboto-black', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     color: rgba(0, 0, 0, 0.7);
 }
@@ -130,7 +130,7 @@ main{
     display: inline-block;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Roboto-black', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     width: 180px;
     color: white;
@@ -141,7 +141,7 @@ main{
     display: inline-block;
     padding: 10px 0 10px 0;
     font-size: 18px;
-    font-family: 'Roboto-black', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-align: center;
     width: 60px;
@@ -172,7 +172,7 @@ main{
 .news-title{
     margin-top:20px;
     font-size: 18px;
-    font-family: 'Open Sans-semibold', sans-serif;
+    font-family: 'OpenSans', sans-serif;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.7);
 }
