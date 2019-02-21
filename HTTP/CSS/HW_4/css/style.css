@@ -36,8 +36,9 @@
 }
 
 .header-nav{
-    width: 1000px;
-    display: inline-block;
+    display:block;
+    float: right;
+    margin-top: 10px;
 }
 
 .header-list{
@@ -97,8 +98,8 @@ main{
 .section-item{
     display: block;
     float: left;
-    margin: 0 25px 34px 0;
-    width: 255px;
+    margin: 0 40px 34px 0;
+    width: 240px;
     font-size: 0;
 }
 
@@ -112,6 +113,9 @@ main{
 
 .section-img{
     background-color: rgb(233, 240, 253);
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .back-color{
@@ -124,11 +128,11 @@ main{
 
 .section-shop{
     display: inline-block;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     font-size: 18px;
     font-family: 'Roboto-black', sans-serif;
     font-weight: 700;
-    width: 200px;
+    width: 180px;
     color: white;
     
 }
@@ -140,7 +144,7 @@ main{
     font-family: 'Roboto-black', sans-serif;
     font-weight: 700;
     text-align: center;
-    width: 55px;
+    width: 60px;
     color: white;
     background-color: rgba(255, 255, 255, 0.4);
 }
