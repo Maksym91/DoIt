@@ -90,7 +90,7 @@
 .baner{
     z-index: 1;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: (-50%, -50%);
 }
@@ -101,11 +101,13 @@
     height: 100px;
     border: none;
     cursor: pointer;
-    font-size: 44px;
     background-color: #1abc9c;
     color: white;
-    opacity: 0.3;
+    opacity: 0.8;
+    font-size: 54px;
+        
 }
+
 
 .slider-cntrl:hover{
     opacity: 1;
@@ -114,6 +116,7 @@
 .slider-cntrl-prew{
     position: absolute;
     left: -50%;
+    
 }
 
 .slider-cntrl-next{
@@ -124,7 +127,7 @@
 .baner-text{
     z-index: 1;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
     text-transform: uppercase;
@@ -203,23 +206,29 @@
 .overlay-icon{
     display: block;
     border: 1px solid white;
-    background-color: transparent;
+    background-color: #323232;
     color: white;
+    text-transform: uppercase;
     width: 176px;
-    height: 40px;
+    height: 48px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 8px;
+    padding: 10px 0 8px 0;
     position: absolute;
-    top: 150px;
+    top: 140px;
     left: 30px;
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.8;
 }
 
 .overlay-icon:hover{
     color: white;
-    background-color: #323232;
+    background-color: #1abc9c;
     cursor: pointer;
+    opacity: 1;
+    border: none;
     
 }
 
@@ -227,6 +236,8 @@
     color: white;
     background-color: #1abc9c;
     cursor: pointer;
+    opacity: 1;
+    border: none;
 }
 
 .icon-item{
@@ -242,12 +253,19 @@
     color: white;
     width: 40px;
     height: 40px;
-    margin: 100px 0 0 28px; 
+    margin: 80px 0 0 28px; 
     text-align: center;
-    padding-top: 8px;
-
-    
+    padding-top: 4px;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.8;
 }
+
+/* .far,
+.fas{
+    font-size: 20px;
+    padding-bottom: 6px;
+} */
 
 .news-shop{
     display: inline-block;
