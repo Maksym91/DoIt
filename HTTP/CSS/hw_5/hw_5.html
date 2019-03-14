@@ -8,141 +8,131 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700/Roboto:300,400,900" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Home_work_5</title>
+    <title>Home_work_5&#8482;</title>
 </head>
 <body>
-    <header class="header container clearfix">
-        <h1 class="site-logo">MART</h1>
+    <header class="header conteiner clearfix">
         <nav class="header-nav">
-            <ul class="header-list">
-                <li class="header-item"><a href="#" class="header-link">HOME</a></li>
-                <li class="header-item"><a href="#" class="header-link">ABOUT US</a></li>
-                <li class="header-item"><a href="#" class="header-link">PAGE</a></li>
-                <li class="header-item"><a href="#" class="header-link">SHOP</a></li>
-                <li class="header-item"><a href="#" class="header-link">BLOG</a></li>
-                <li class="header-item"><a href="#" class="header-link">CONTACTS US</a></li>
+            <ul class="header-list clearfix">
+                <li class="header-list__item"><a href="#" class="header-link">home</a></li>
+                <li class="header-list__item"><a href="#" class="header-link">about us</a></li>
+                <li class="header-list__item"><a href="#" class="header-link">page</a></li>
+                <li class="header-list__item"><a href="#" class="header-link">shop</a></li>
+                <li class="header-list__item"><a href="#" class="header-link">blog</a></li>
+                <li class="header-list__item"><a href="#" class="header-link">contact us</a></li>
             </ul>
         </nav>
-    </header>
+        <h1 class="site-logo"><a class="site-logo__title" href="#">mart</a></h1>
+    </header>    
 
-<div class="slider">
-    <img class="slider-img" src="./img/slide4.jpg" width="1600" height="600" alt="slider">
-    <div class="baner container">
-    <button class="slider-cntrl slider-cntrl-prew"><i class="fas fa-angle-left"></i></button>
-    <button class="slider-cntrl slider-cntrl-next"><i class="fas fa-angle-right"></i></button>
-    </div>
-    <div class="baner-text">
-            <h2 class="slider-title">AFFORDABLE TOURS</h2>
-            <p class="slider-text">CITY TOURS/TOUR TICKET/YOUR GUIDES</p>
-    </div>
-</div>
+        <div class="baner">
+                <div class="baner-overlay"></div>
+            <!-- <img 
+            src="./img/slide4.jpg" 
+            alt="baner"
+            width="1920"
+            height="700"> -->
 
-
-<div class="wrapper">
-        <div class="sections-news container clearfix">
-            <h2 class="news-title">NEW COLECTION</h2>
+            <div class="baner-title conteiner">
+                <h2 class="tour-title">affordable paris tours</h2>
+                <h3 class="tour-text">city tours/tour ticket/tour guides</h3>
+                <button class="baner-button prew"><i class="fas fa-angle-left"></i></button>
+                <button class="baner-button next"><i class="fas fa-angle-right"></i></button>
+            </div>
             
-            <ul class="news-list">
-                <li class="news-item">
-                <div class="overlay">
-                    <ul class="icon-list">
-                    <li class="icon-item">
-                    <button class="icon"><i class="far fa-heart"></i></button>
-                </li>
-                <li class="icon-item">
-                    <button class="icon"><i class="fas fa-exchange-alt"></i></button>
-                </li>
-                <li class="icon-item">
-                        <button class="icon"><i class="far fa-clock"></i></button>
-                </li>
-                </ul>
-                <button class="overlay-icon clearfix"> <i class="fas fa-shopping-cart"></i> add to card</button>
-                </div>
-                <img src="./img/table_1.jpg" width="250" height="280" alt="" class="news-img">
+        </div>
+
+        <div class="section-wrapper">
+        <section class="section-new conteiner">
+            <h2 class="section-title">new colection</h2>
+            <ul class="siction-list clearfix">
+                
+                <li class="section-list__item">
+                    <img src="./img/table_1.jpg" 
+                    alt="card" 
+                    class="section-img"
+                    width="260"
+                    height="280">
                 <div class="back-color">
-                <h2 class="news-shop">BLUE TSHIRT</h2>
-                <p class="price">$23</p>
+                <div class="section-overlay">
+                    <button class="section-button icon-a"><i class="far fa-heart"></i></button>
+                    <button class="section-button icon-b"><i class="fas fa-exchange-alt"></i></button>
+                    <button class="section-button icon-c"><i class="far fa-clock"></i></button>
+                    <button class="add_card"><i class="fas fa-shopping-cart"></i>add to card</button>
+                </div>
+                
+                <p class="img-text">blue tshirt</p>
+                <p class="img-prise">$23</p>
                 </div>
                 </li>
-                <li class="news-item">
-                    <div class="overlay">
-                            <ul class="icon-list">
-                       
-                                    <li class="icon-item">
-                                    <button class="icon"><i class="far fa-heart"></i></button>
-                                    </li>
-                                    <li class="icon-item">
-                                    <button class="icon"><i class="fas fa-exchange-alt"></i></button>
-                                    </li>
-                                    <li class="icon-item">
-                                    <button class="icon"><i class="far fa-clock"></i></button>
-                                    </li>
-                                    </ul>
-                                    <button class="overlay-icon clearfix"><i class="fas fa-shopping-cart"></i> add to card</button>
-                    </div>
-                    <img src="./img/table_2.jpg" width="250" height="280" alt="" class="news-img">
+                
+                <li class="section-list__item">
+                    <img 
+                    src="./img/table_2.jpg" 
+                    alt="card" 
+                    class="section-img"
+                    width="260"
+                    height="280">
+
                     <div class="back-color">
-                    <h2 class="news-shop">YELLOW TSHIRT</h2>
-                    <p class="price">$43</p>
+                    <div class="section-overlay">
+                        <button class="section-button icon-a"><i class="far fa-heart"></i></button>
+                        <button class="section-button icon-b"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="section-button icon-c"><i class="far fa-clock"></i></button>
+                        <button class="add_card"><i class="fas fa-shopping-cart"></i>add to card</button>
+                    </div>
+                    
+                    <p class="img-text">woman thsirt</p>
+                    <p class="img-prise">$43</p>
                     </div>
                 </li>
-                <li class="news-item">
-                    <div class="overlay">
-                            <ul class="icon-list">
-                       
-                                    <li class="icon-item">
-                                    <button class="icon"><i class="far fa-heart"></i></button>
-                                    </li>
-                                    <li class="icon-item">
-                                    <button class="icon"><i class="fas fa-exchange-alt"></i></button>
-                                    </li>
-                                    <li class="icon-item">
-                                    <button class="icon"><i class="far fa-clock"></i></button>
-                                    </li>
-                                    </ul>
-                                    <button class="overlay-icon clearfix"><i class="fas fa-shopping-cart"></i> add to card</button>
-                   
-                </div>
-                    <img src="./img/table_3.jpg" width="250" height="280" alt="" class="news-img">
+                
+                <li class="section-list__item">
+                    <img 
+                    src="./img/table_3.jpg" 
+                    alt="card" 
+                    class="section-img"
+                    width="260"
+                    height="280">
                     <div class="back-color">
-                    <h2 class="news-shop">RED TSHIRT</h2>
-                    <p class="price">$32</p>
+                    <div class="section-overlay">
+                        <button class="section-button icon-a"><i class="far fa-heart"></i></button>
+                        <button class="section-button icon-b"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="section-button icon-c"><i class="far fa-clock"></i></button>
+                        <button class="add_card"><i class="fas fa-shopping-cart"></i>add to card</button>
+                    </div>
+                    
+                    <p class="img-text">yellow tshirt</p>
+                    <p class="img-prise">$25</p>
                     </div>
                 </li>
-                <li class="news-item">
-                    <div class="overlay">
-                            <ul class="icon-list">
-                       
-                                    <li class="icon-item">
-                                    <button class="icon"><i class="far fa-heart"></i></button>
-                                    </li>
-                                    <li class="icon-item">
-                                    <button class="icon"><i class="fas fa-exchange-alt"></i></button>
-                                    </li>
-                                    <li class="icon-item">
-                                    <button class="icon"><i class="far fa-clock"></i></button>
-                                    </li>
-                                    </ul>
-                                    <button class="overlay-icon clearfix"><i class="fas fa-shopping-cart"></i> add to card</button>
-                    </div>
-                    <img src="./img/table_4.jpg" width="250" height="280" alt="" class="news-img">
+
+                <li class="section-list__item">
+                    <img 
+                    src="./img/table_4.jpg" 
+                    alt="card" 
+                    class="section-img"
+                    width="260"
+                    height="280">
                     <div class="back-color">
-                    <h2 class="news-shop">WOMAN TSHIRT</h2>
-                    <p class="price">$25</p>
+                    <div class="section-overlay">
+                        <button class="section-button icon-a"><i class="far fa-heart"></i></button>
+                        <button class="section-button icon-b"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="section-button icon-c"><i class="far fa-clock"></i></button>
+                        <button class="add_card"><i class="fas fa-shopping-cart"></i>add to card</button>
+                    </div>
+                    
+                    <p class="img-text">cool lingerie</p>
+                    <p class="img-prise">$55</p>
                     </div>
                 </li>
             </ul>
+        </section>
         </div>
-    </div>
 
-    
-    
-    <footer class="footer">
-        <P class="footer-text">All Rights Reserved @ Dokan | Designed <a href="#" class="footer-link">ThemenGraph</a></P>
-    </footer>
-
-
-
+        <footer class="footer">
+            <p class="footer-text">All Rights Reserverd @ Docan | Designet <a class="footer-link" href="#">ThemenGraph</a> </p>
+        </footer>
 
 </body>
 </html>

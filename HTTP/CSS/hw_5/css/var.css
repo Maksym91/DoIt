@@ -1,0 +1,10 @@
+:root{
+
+    --main-color: #1abc9c;
+    --main-semi-color: black;
+    --title-color: white;
+    --backgraund-color: #323232;
+    --backgraund-semi-color: gray;
+    --overlay-color: rgba(0, 0, 0, 0.6);
+    --backgraund-sec-color: #e9f0fd;
+}
