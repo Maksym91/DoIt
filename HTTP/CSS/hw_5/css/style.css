@@ -91,7 +91,7 @@
 
 .tour-title{
     color: var(--title-color);
-    font-size: 48px;
+    font-size: 50px;
     text-transform: uppercase;
     position: absolute;
     top: 110%;
@@ -105,7 +105,7 @@
     color: rgba(255, 255, 255, 0.8);
     font-size: 24px;
     position: absolute;
-    top: 140%;
+    top: 150%;
     left: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -125,7 +125,7 @@
     height: 100px;
     background-color: var(--main-color);
     border: none;
-    opacity: 0.4;
+    opacity: 0.7;
 }
 
 .baner-button:hover{
@@ -242,6 +242,7 @@ img{
     color: white;
     font-size: 22px;
     background-color: transparent;
+    opacity: 0.8;
     
 }
 
@@ -275,6 +276,7 @@ img{
     left: 15%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    opacity: 0.8;
 }
 
 .fa-shopping-cart{
