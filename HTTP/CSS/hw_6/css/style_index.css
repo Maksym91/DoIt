@@ -92,7 +92,7 @@ a{
 .wrapper::after{
     content: "";
     display: block;
-    border-bottom: 3px solid var(--main-color-hover);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     width: 100%;
     margin-top: 40px;
 }
@@ -141,10 +141,12 @@ a{
 .team-list{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .img-cont{
     position: relative;
+    margin-bottom: 20px;
 }
 
 .team-img{
@@ -157,16 +159,38 @@ a{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(127, 255, 212, 0.637);
+    background-image: var(--background-image);
     opacity: 0;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    padding-left: 75px;
+}
+
+
+.overlay:hover{
+    opacity: 1;
 }
 
 .social-list{
     display: flex;
+}
+
+
+.social-link{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--icon-backgraund);
+    text-align: center;
+    padding-top: 15px;
     
 }
+
+.social-link:hover{
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
 
 .img-cont:hover{
     transform: translate(-10px, -10px);
@@ -179,6 +203,22 @@ a{
 }
 
 
+
+.team-name,
+.team-description{
+    text-align: center;
+}
+
+.team-name{
+    text-transform: uppercase;
+    font-family: ;
+    margin-bottom: 10px;
+}
+
+.team-description{
+    color: rgba(0, 0, 0, 0.4);
+    font-style: italic;
+}
 
 
 
@@ -219,19 +259,21 @@ a{
     cursor: pointer;
 }
 
+
+
 .form-email {
     flex-grow: 1;
     padding-left: 10px;
-    border: 1px solid ;
-    color: ;
-    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: var(--main-color-hover);
+    font-size: 18px;
     font-family: ;
     font-weight: 300;
-    font-style: italic;
+    font-style: normal;
 }
 
 .form-email::placeholder {
-    color: ;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 

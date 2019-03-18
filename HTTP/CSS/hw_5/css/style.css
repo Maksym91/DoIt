@@ -116,6 +116,12 @@
     z-index: 1;
 }
 
+.fa-angle-right,
+.fa-angle-left{
+    color: white;
+    font-size: 54px;
+}
+
 .baner-ctrl__prew{
     left: -510px; 
 }
