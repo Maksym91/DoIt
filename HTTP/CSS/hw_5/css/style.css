@@ -75,81 +75,86 @@
 }
 
 .baner{
-    min-height: 600px;
+    position: relative;
+}
+
+.baner-img{
+    display: block;
     width: 100%;
-    background-image: url("../img/slide4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    object-fit: cover;
 }
 
-.baner-title{
-    padding-top: 220px;
-    width: 800px;
-    position: relative;
-}
-
-.tour-title{
-    color: var(--title-color);
-    font-size: 50px;
-    text-transform: uppercase;
-    position: absolute;
-    top: 110%;
-    left: 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-}
-
-.tour-text{
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 24px;
-    position: absolute;
-    top: 150%;
-    left: 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
-
-.baner-overlay{
+.baner::after{
+    content: "";
+    display: block;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
     left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-.baner-button{
+.baner-cont{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.baner-ctrl{
+    display: block;
     width: 100px;
     height: 100px;
-    background-color: var(--main-color);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: aqua;
     border: none;
-    opacity: 0.7;
+    opacity: 0.4;
+    z-index: 1;
 }
 
-.baner-button:hover{
+.baner-ctrl__prew{
+    left: -510px; 
+}
+
+.baner-ctrl__prew:hover{
     opacity: 1;
     cursor: pointer;
 }
 
-.fa-angle-left,
-.fa-angle-right{
-    color: var(--title-color);
-    font-size: 40px;
-    padding: 30px 40px;    
+.baner-crtl__next{
+    right: -510px;
 }
 
-.prew{
-    position: absolute;
-    top: 120%;
-    left: -30%;
+.baner-crtl__next:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
-.next{
+.baner-text{
+    z-index: 1;
     position: absolute;
-    top: 120%;
-    left: 110%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tour-text,
+.tour-title{
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+}
+
+.tour-title{
+    font-size: 60px;
+}
+
+.tour-text{
+        font-size: 24px;
 }
 
 .section-wrapper{
@@ -222,13 +227,15 @@ img{
 
 .section-overlay{
     opacity: 0;
-    width: 90%;
-    height: 82%;
     display: block;
     background-color: var(--overlay-color);
     position: absolute;
-    top: 3%;
-    left: 5%; 
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    width: 240px;
+    height: 260px;
 }
 
 .section-overlay:hover, .section-list__item{
@@ -315,4 +322,4 @@ img{
     text-decoration: none;
     color: var(--main-color);
 }
-
+ 
