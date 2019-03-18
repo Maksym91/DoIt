@@ -27,7 +27,7 @@ a{
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
 .site-logo{
@@ -36,6 +36,8 @@ a{
 
 .site-link{
     color: var(--main-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .header-list{
@@ -48,6 +50,8 @@ a{
 .item-link{
     color: var(--main-color);
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 .item-link:hover{
@@ -82,7 +86,7 @@ a{
     border-bottom: 3px solid var(--main-color-hover);
     width: 60px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
@@ -99,12 +103,17 @@ a{
 
 .service-title{
     font-size: 24px;
-    font-style: italic;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    margin-bottom: 20px;
+
 }
 
 .service-text{
     text-transform: uppercase;
     font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .service-list{
@@ -129,13 +138,24 @@ a{
 .block-title{
     text-transform: uppercase;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.block-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .service-text__title{
     text-align: center;
     width: 1000px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .team-list{
@@ -202,8 +222,6 @@ a{
     opacity: 1;
 }
 
-
-
 .team-name,
 .team-description{
     text-align: center;
@@ -211,16 +229,17 @@ a{
 
 .team-name{
     text-transform: uppercase;
-    font-family: ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
 .team-description{
     color: rgba(0, 0, 0, 0.4);
     font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
-
-
 
 .footer {
     margin-bottom: 10px;
@@ -230,11 +249,8 @@ a{
 }
 
 .footer-address {
-    font-size: 14px;
-    font-family: var(--title-font);
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-style: normal;
-    color: var(--fourth-color);
 }
 
 .footer-link {
@@ -252,7 +268,8 @@ a{
     border-style: none;
     background-color: var(--main-color);
     text-transform: uppercase;
-    font-family: ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-weight: 700;
     font-size: 14px;
     color: white;
