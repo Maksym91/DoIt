@@ -95,12 +95,19 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.cont{
+z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .baner-cont{
     z-index: 1;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
 }
 
 .baner-ctrl{
@@ -110,7 +117,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: aqua;
+    background-color: var(--main-color);
     border: none;
     opacity: 0.4;
     z-index: 1;
@@ -123,7 +130,7 @@
 }
 
 .baner-ctrl__prew{
-    left: -510px; 
+    left: 0; 
 }
 
 .baner-ctrl__prew:hover{
@@ -132,7 +139,7 @@
 }
 
 .baner-crtl__next{
-    right: -510px;
+    right: 0;
 }
 
 .baner-crtl__next:hover{
@@ -146,6 +153,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: left;
 }
 
 .tour-text,
@@ -156,11 +164,15 @@
 }
 
 .tour-title{
-    font-size: 60px;
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
 
 .tour-text{
-        font-size: 24px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .section-wrapper{
@@ -210,9 +222,11 @@ img{
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    font-size: 18px;
 }
 
-.back-color:hover, .section-list__item{
+.back-color:hover, 
+.section-list__item{
     background-color: var(--main-color);
     color: white;
 }
@@ -228,7 +242,8 @@ img{
     color: var(--title-color);
     background-color: rgba(255, 255, 255, 0.3);
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;    
+    font-weight: 900;  
+    font-size: 18px;  
 }
 
 .section-overlay{
