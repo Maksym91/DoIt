@@ -34,3 +34,30 @@
 // =============================================================================
 
 
+// task03
+
+// let startPrice;
+// const country = 'Япония';
+
+// switch(country){
+//     case 'Япония':
+//     startPrice = '250';
+//     break;
+
+//     case 'Штаты':
+//     startPrice = '320';
+//     break;
+    
+//     case 'Африка':
+//     startPrice = '80';
+//     break;
+
+//     case 'индия':
+//     startPrice = '500';
+//     break;
+
+//     default:
+//     console.log('нет тут такого....ЙЕП!');
+// }
+
+// console.log(`В ${country} стоимость доставки ${startPrice} кредитов`);
