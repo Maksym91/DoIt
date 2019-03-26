@@ -36,28 +36,28 @@
 
 // task03
 
-// let startPrice;
-// const country = 'Япония';
+let startPrice;
+ const country = prompt('введите страну');
 
-// switch(country){
-//     case 'Япония':
-//     startPrice = '250';
-//     break;
+ switch(country){
+     case 'Япония':
+     startPrice = '250';
+     break;
 
-//     case 'Штаты':
-//     startPrice = '320';
-//     break;
+     case 'Штаты':
+     startPrice = '320';
+     break;
     
-//     case 'Африка':
-//     startPrice = '80';
-//     break;
+     case 'Африка':
+     startPrice = '80';
+     break;
 
-//     case 'индия':
-//     startPrice = '500';
-//     break;
+     case 'индия':
+     startPrice = '500';
+     break;
 
-//     default:
-//     console.log('нет тут такого....ЙЕП!');
-// }
+     default:
+     alert('нет тут такого....ЙЕП!');
+ }
 
-// console.log(`В ${country} стоимость доставки ${startPrice} кредитов`);
+ alert(`В ${country} стоимость доставки ${startPrice} кредитов`);

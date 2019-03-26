@@ -40,11 +40,20 @@ a{
     font-weight: 700;
 }
 
+.header-nav{
+    display: flex;
+}
+
 .header-list{
     display: flex;
-    width: 490px;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.header-item{
+    margin-right: 30px;
+}
+
+.header-item:last-child{
+    margin-right: 0;
 }
 
 .item-link{
@@ -282,9 +291,9 @@ a{
     flex-grow: 1;
     padding-left: 10px;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    color: var(--main-color-hover);
+    color: black;
     font-size: 18px;
-    font-family: ;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-style: normal;
 }
