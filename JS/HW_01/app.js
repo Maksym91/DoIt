@@ -1,63 +1,76 @@
-// task 01
+// // task 01
 
-// const ADMIN_PASSWORD = 'q1w2e3r4';
-// let message = prompt ('введите пароль');
+const ADMIN_PASSWORD = 'q1w2e3r4';
+let message = prompt ('введите пароль');
 
-// if(message === ADMIN_PASSWORD){
-//     alert('Добро пожаловать')
-// }else{
-//     alert('отменено')
-// }
-// if(message !==ADMIN_PASSWORD){
-//     alert('Доступ запрещен')
-// }
+if(message === null){
+    alert('Отменено пользователем');
+}else if(message == ADMIN_PASSWORD){
+    alert('Добро пожаловать');
+}else{
+    alert('Доступ запрещен')
+}
 
+alert(message);
 // ==========================================================================
 
 
-// task02
+// //task02
 
-// const credits = '23500';
-// const priceDroid = '3000';
-// const quantity = '8';
+const credits = '23500';
+const priceDroid = '3000';
+const quantity = '12';
 
-// let totalPrice = credits -(priceDroid*quantity);
+let totalPrice = credits -(priceDroid*quantity);
 
-// if((quantity * priceDroid)<= credits){
-//     console.log(`Вы купили ${quantity} дроидов, на счету осталось ${totalPrice} кредитов`);
-// }
+if((quantity * priceDroid)<= credits){
+    console.log(`Вы купили ${quantity} дроидов, на счету осталось ${totalPrice} кредитов`);
+}
+if((quantity * priceDroid)>credits){
+    console.log(`У вас не достаточно кредитов`)
+}
 
-// if((quantity * priceDroid)>credits){
-//     console.log(`У вас не достаточно кредитов`)
-// }
-
-// =============================================================================
+// // =============================================================================
 
 
-// task03
+// // task03
 
 let startPrice;
- const country = prompt('введите страну');
+let country = prompt ('введите страну').toLowerCase();
 
- switch(country){
-     case 'Япония':
-     startPrice = '250';
-     break;
+switch(country.trim()){
+    case 'япония':
+    startPrice = '250';
+    alert(`В ${country} стоимость доставки ${startPrice} кредитов`);
+    break;
 
-     case 'Штаты':
-     startPrice = '320';
-     break;
+    case 'штаты':
+    startPrice = '320';
+    alert(`В ${country} стоимость доставки ${startPrice} кредитов`);
+    break;
     
-     case 'Африка':
-     startPrice = '80';
-     break;
+    case 'африка':
+    startPrice = '80';
+    alert(`В ${country} стоимость доставки ${startPrice} кредитов`);
+    break;
 
-     case 'индия':
-     startPrice = '500';
-     break;
+    case 'индия':
+    startPrice = '500';
+    alert(`В ${country} стоимость доставки ${startPrice} кредитов`);
+    break;
 
-     default:
-     alert('нет тут такого....ЙЕП!');
- }
+    case (''):
+    alert('сделайте ваш выбор');
+    break;
 
- alert(`В ${country} стоимость доставки ${startPrice} кредитов`);
+    default:
+    alert('в вашей стране доставка не доступна');
+
+}
+    
+
+
+
+
+
+
